@@ -69,3 +69,56 @@
 # message="Hello World"
 # print("Hello" in message)
 # print("World" not in message)
+
+
+
+# Python content flow
+
+# If...else statement
+# id = int(input("Enter a number: "))
+# if id == 30:
+#     print("Sakib")
+# elif id == 22:
+#     print("Apon")
+# else:
+#     print("Kaium")
+
+# Loop
+# students = ['Sakib', 'Apon', 'Kaium', 'Piyas']
+# for student in students:
+#     print(student)
+
+# name = "Sakibul"
+# for alphabet in name:
+#     print(alphabet)
+
+# for i in range(10):
+#     print(i)
+
+# number = 1
+# while number <=10:
+#     print(number)
+#     number = number+1
+
+# number = int(input("Enter a number: "))
+# while number != 0:
+#     print(f"You have entered: {number}")
+#     number = int(input("Enter a number: "))
+# print("End of the loop")
+
+# infinite loop
+# age = 32
+# while age > 18:
+#     print('You can vote')
+
+# for i in range(10):
+#     if i == 3:
+#         break/continue
+#     print(i)
+
+# Pass statement
+# In Python programming, the pass statement is a null statement which can be used as a placeholder for future code.Suppose we have a loop or a function that is not implemented yet, but we want to implement it in the future. In such cases, we can use the pass statement.
+# number = 10
+# if number<10:
+#     pass
+# print("Hello")
