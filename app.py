@@ -419,3 +419,121 @@
 # print(".pdf" in file_types) #Output: True
 # print(".mp3" in file_types) #Output: False
 # print(".mp3" not in file_types) #Output: True
+
+
+
+# Python string
+# message = "I love Python."
+# print(message[4])
+# print(message[-4])
+# print(message[0:4])
+
+# In Python, strings are immutable. That means the characters of a string cannot be changed. For example,
+# message = 'Hola Amigos'
+# message[0] = 'H'
+# print(message)
+
+# However, we can assign the variable name to a new string. For example,
+# message = 'Hola Amigos'
+# # assign new string to message variable
+# message = 'Hello Friends'
+# print(message); # prints "Hello Friends"
+
+# Python multiline string
+# multiline string 
+# message = """
+# Never gonna give you up
+# Never gonna let you down
+# """
+# print(message)
+
+# Compare two string
+# str1 = "Hello, world!"
+# str2 = "I love Swift."
+# str3 = "Hello, world!"
+# compare str1 and str2
+# print(str1 == str2)
+# compare str1 and str3
+# print(str1 == str3)
+
+# Join two or more string
+# greet = "Hello, "
+# name = "Jack"
+# using + operator
+# result = greet + name
+# print(result)
+
+# Iterate through python string
+# greet = 'Hello'
+# iterating through greet string
+# for letter in greet:
+# print(letter)
+
+# Python string length
+# greet = 'Hello'
+# count length of greet string
+# print(len(greet))
+
+# String membership test
+# print('a' in 'program')
+# print('at' not in 'battle')
+
+# Methods of python string
+# upper() - Converts the string to uppercase
+# lower() - Converts the string to lowercase
+
+# partition() - Returns a tuple
+# name = "Sakibul Islam"
+# print(name.partition(' '))
+
+# replace() - Replaces substring inside
+# text = 'bat ball balling'
+# replace 'ba' with 'ro'
+# replaced_text = text.replace('ba', 'ro')
+# print(replaced_text)
+
+# find() - Returns the index of the first occurrence of substring
+# message = 'Python is a fun programming language'
+# check the index of 'fun'
+# print(message.find('fun'))
+
+# rstrip() - Removes trailing characters
+# title = 'Python Programming   '
+# remove trailing whitespace from title
+# result = title.rstrip()
+# print(result)
+
+# split() - Splits string from left
+# text = 'Python is fun'
+# split the text from space
+# print(text.split())
+
+# startswith() - Checks if string starts with the specified string
+# message = 'Python is fun'
+# check if the message starts with Python
+# print(message.startswith('Python'))
+
+# isnumeric() - Checks numeric characters
+# pin = "523"
+# checks if every character of pin is numeric 
+# print(pin.isnumeric())
+
+# index() - Returns index of substring
+# text = 'Python is fun'
+# find the index of is
+# result = text.index('is')
+# print(result)
+
+# Escape sequence in Python
+# example = "He said, "What's there?""
+# print(example) # throws error
+# escape double quotes
+# example = "He said, \"What's there?\""
+# escape single quotes
+# example = 'He said, "What\'s there?"'
+# print(example)
+
+# Python string formatting
+# name = 'Cathy'
+# country = 'UK'
+# print(f'{name} is from {country}')
