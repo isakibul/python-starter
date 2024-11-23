@@ -537,3 +537,24 @@
 # name = 'Cathy'
 # country = 'UK'
 # print(f'{name} is from {country}')
+
+
+
+# Python Function
+# def greet():
+#     print('Hello World!')
+
+# Standard library module
+# import math
+
+# Import with renaming
+# import math as m
+
+# from...import statement
+# from math import pi
+
+# Import all names
+# from math import *
+
+# dir() built-in function
+# we can use the dir() function to list all the function names in a module.
